@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TkDocs Home</title>
+    <meta http-equiv="Content-Language" content="English" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="TkDocs features tutorials and other material for modern Tk GUI development, using Python/Tkinter, Tcl, Ruby, and Perl/Tkx." />
+    <meta name="keywords" content="TkDocs, Tk, Tkinter, Tkx, GUI, Tcl, Python, Perl, Ruby" />	
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="tkc.css" media="screen,print" />
+
+   
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2043168-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-2043168-3');
+</script>
+
+<!-- MailerLite Universal -->
+<script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+var ml_account = ml('accounts', '3437152', 'm6x2f5j1r3', 'load');
+</script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-light align-baseline" id="mainnav">
+  <a class="navbar-brand" href="index.html">TkDocs</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="tutorial/index.html" id="tutorialDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tutorial</a>
+      <div class="dropdown-menu" area-labelledby="tutorialDropdown">
+        <a class="dropdown-item" href="tutorial/index.html">Table of Contents</a>
+        <a class="dropdown-item" href="tutorial/intro.html">Introduction</a>
+        <a class="dropdown-item" href="tutorial/install.html">Installing Tk</a>
+        <a class="dropdown-item" href="tutorial/firstexample.html">A First (Real) Example</a>
+        <a class="dropdown-item" href="tutorial/concepts.html">Tk Concepts</a>
+        <a class="dropdown-item" href="tutorial/widgets.html">Basic Widgets</a>
+        <a class="dropdown-item" href="tutorial/grid.html">The Grid Geometry Manager</a>
+        <a class="dropdown-item" href="tutorial/morewidgets.html">More Widgets</a>
+        <a class="dropdown-item" href="tutorial/eventloop.html">Event Loop</a>
+        <a class="dropdown-item" href="tutorial/menus.html">Menus</a>
+        <a class="dropdown-item" href="tutorial/windows.html">Windows and Dialogs</a>
+        <a class="dropdown-item" href="tutorial/complex.html">Organizing Complex Interfaces</a>
+        <a class="dropdown-item" href="tutorial/fonts.html">Fonts, Colors, Images</a>
+        <a class="dropdown-item" href="tutorial/canvas.html">Canvas</a>
+        <a class="dropdown-item" href="tutorial/text.html">Text</a>
+        <a class="dropdown-item" href="tutorial/tree.html">Treeview</a>
+        <a class="dropdown-item" href="tutorial/styles.html">Styles and Themes</a>
+        <a class="dropdown-item" href="tutorial/idle.html">Case Study: IDLE Modernization</a>
+      </div></li>
+      <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="resources/index.html" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+      <div class="dropdown-menu" area-labelledby="resourcesDropdown">
+        <a class="dropdown-item" href="resources/index.html">Overview</a>
+        <a class="dropdown-item" href="resources/backgrounder.html">Tk Backgrounder</a>
+        <a class="dropdown-item" href="widgets/index.html">Widget Roundup</a>
+        <a class="dropdown-item" href="resources/languages.html">Languages Using Tk</a>
+        <a class="dropdown-item" href="pyref/index.html">Tkinter API Reference</a>
+        <a class="dropdown-item" href="shipman/index.html">Shipman Tkinter Reference</a>
+      </div></li>
+
+      <li class="nav-item"><a class="nav-link" href="book.html" title="Book">Book</a></li>
+      
+      <li class="nav-item"><a class="nav-link" href="about.html" title="About">About</a></li>
+
+      <li class="searchbox"><script async src="https://cse.google.com/cse.js?cx=003320820744845249553:21x-yikoeim"></script>
+		<div class="gcse-searchbox-only" data-resultsUrl="search.html"></div></li>
+<script>
+  window.onload = function(){
+  document.getElementById('gsc-i-id1').placeholder = 'Search TkDocs';
+  };
+</script>
+    </ul>
+   </div>
+</nav>
+
+<div class="container-fluid">
+
+
+
+<div class='row'><div class='col col-md-4 col-lg-3 order-last' id='tkdocs-sidebar'><div id=ebookad><div><a href='book.html' title='Modern Tkinter for Busy Python Developers. Take TkDocs to go! Paperback or e-book.'><img src='images/bookad3.png' width=300 height=250 alt='Modern Tkinter'></a></div></div>
+<style type="text/css">div.ml-form-embedBody {padding:0.5rem !important;}
+  div.ml-form-embedContent, div.ml-form-formContent, div.ml-form-embedPermissionsContent {margin-bottom:0.25rem !important;}
+  div.ml-form-embedContent h4 {font-family:inherit !important;font-weight:500 !important;font-size:1.5rem !important;margin-bottom:0 !important;}
+  div.ml-form-embedSubmit {margin-bottom:0.5rem !important;}
+</style>
+<div id="signup-wrapper" style="height:200px;overflow:hidden;">
+<div class="ml-form-embed" style="margin-bottom:1rem;"
+  data-account="3437152:m6x2f5j1r3"
+  data-form="4708564:u3e6p5">
+</div>
+</div>
+<div class="d-none d-md-block sidebar-topic">
+<h3>Essentials</h3>
+<ul class=tightlist>	
+	<li><a href="tutorial/index.html">Tutorial</a></li>
+	<li><a href="tutorial/install.html">Installing Tk</a></li>
+	<li><a href="book.html">Modern Tkinter</a></li>
+	<li><a href="resources/backgrounder.html">Tk Backgrounder</a></li>
+	<li><a href="https://tcl.tk/man/tcl8.6/TkCmd/contents.htm">Official Tk Command Reference</a><br><span class="small text-secondary">(Tcl-oriented; at www.tcl.tk)</span></li>		
+</ul>
+</div>
+
+<ul class="list-inline d-block d-md-none">	
+<li class="list-inline-item"><b>Essentials:</b></li>
+<li class="list-inline-item"><a title="Tutorial" href="tutorial/index.html">Tutorial</a></li>
+<li class="list-inline-item"><a title="Installing Tk" href="tutorial/install.html">Installing</a></li>
+<li class="list-inline-item"><a title="Modern Tkinter" href="book.html">Book</a></li>
+<li class="list-inline-item"><a title="Tk Backgrounder" href="resources/backgrounder.html">Backgrounder</a></li>
+<li class="list-inline-item"><a title="Official Tk Command Reference - Tcl-oriented" href="https://tcl.tk/man/tcl8.6/TkCmd/contents.htm">Reference</a></li>		
+</ul>
+
+
+
+</div><div class='col-12 col-md-8 col-lg-9 order-md-first' id='maincontent'><div class="card page-intro mb-3"><div class="card-body">
+Tk is the only cross-platform (Windows, Mac, Unix) graphical user interface toolkit designed exclusively for high-level dynamic languages, like Python, Tcl, Ruby, Perl, and many others.
+Whatever language you use, this site brings you the current, high-quality essential information you need to get the most out of Tk.
+
+
+</div></div><div class="mpart">
+
+
+<div class="homebody">
+<h1>Modern Tk Best Practices</h1>
+<h4>Learn the latest modern Tk features and make better GUI's.</h4>
+<p>
+The <a href="tutorial/index.html"><b>TkDocs tutorial</b></a> makes it fast and easy to learn what you need.
+It supplements the existing, often-outdated documentation available for Tk, especially focusing on the innovations
+found in Tk 8.5 and beyond.  
+This "newer" Tk is so much better than the <strike>old and cruddy</strike> "classic" Tk you may be familiar with. 
+For some more on the "what" and "why" of this site, have a peek at the <a href="about.html">about page</a>.
+</p>
+<p><img alt="python logo" src="images/python.png" style="border-width:0px;float:left;vertical-align:bottom;margin-right:10px;" width=33 height=42>
+
+  Python users, please consider buying  
+<a href='book.html' title='Modern Tkinter for Busy Python Developers. Take TkDocs to go!'><em><b>Modern Tkinter</b></em></a>
+(paperback or e-book), which supports TkDocs.
+
+<div class="small text-right text-muted"><em>Updated by Mark Aug 17, 2024</em></div>
+
+
+<hr>
+<h4>Tk 8.6 builds on the themed widgets introduced in Tk 8.5.<br>Latest patch (8.6.14) released Feb 28, 2024.</h4>
+<p>
+With <em>over ten years of maturity</em> under its belt, <a href="http://www.tcl.tk/software/tcltk/8.6.tml">8.6</a> should be for most people the Tk version of choice.  
+Despite how much of a step forward 8.5 and 8.6 are, remember that people running their 
+older Tk programs in the new version won't see a difference.  Programs need to switch from the "classic" Tk 
+widgets to the new themed "ttk::" widgets.  Luckily this is <a href="tutorial/index.html">not difficult,</a> but you need to know the new stuff is there!
+</p>
+<p>Looking to the future, the third beta of Tk 9.0 was released Jul 31, 2024.</p>
+<div class="small text-right text-muted"><em>Updated by Mark Aug 17, 2024</em></div>
+
+</div>
+
+
+&nbsp;
+
+	</div></div></div></div>
+  <footer><div class="container-fluid"><div class="row px-2">
+    <div class="col-4"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/">
+		<img class="align-middle border-0" alt="Creative Commons License" title="Creative Commons Attribution-Noncommercial-Share Alike 2.5 Canada License" src="images/cc.png" width=80 height=15 />
+		</a>
+    <a href="about.html" title="About TkDocs"><i class="fa fa-question-circle fa-lg"></i></a>
+</div>
+    <div class="col-8 text-right">&copy; 2007-2024 Mark Roseman
+    <a href="mailto:mark@tkdocs.com" title="mark@tkdocs.com"><i class="fa fa-envelope-square fa-lg"></i></a>
+    <a href="http://twitter.com/markroseman" title="@markroseman"><i class="fa fa-twitter-square fa-lg"></i></a>
+    <a href="http://markroseman.com" title="Personal Site"><i class="fa fa-external-link-square fa-lg"></i></a>
+</div></div>
+	</div>
+</div>
+</div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="tkdocs.js"></script>
+    
+</body>
+</html>
+
+
